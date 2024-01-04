@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    tools:context=".PlayerDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <ImageView
+                android:id="@+id/player_profile"
+                android:layout_width="344dp"
+                android:layout_height="219dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="78dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/player_name"
+                style="@style/PlayerNameDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/player_name"
+                app:layout_constraintEnd_toEndOf="@+id/player_profile"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="@+id/player_profile"
+                app:layout_constraintTop_toBottomOf="@+id/player_profile" />
+
+            <TextView
+                android:id="@+id/player_post"
+                style="@style/PlayerPositionDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/player_position"
+                app:layout_constraintEnd_toEndOf="@+id/player_profile"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="@+id/player_profile"
+                app:layout_constraintTop_toBottomOf="@+id/player_name" />
+
+            <TextView
+                android:id="@+id/player_desc"
+                style="@style/Textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginTop="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/player_profile"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/player_profile"
+                app:layout_constraintTop_toBottomOf="@+id/player_special"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/player_special"
+                style="@style/TextviewSpecial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="special"
+                app:layout_constraintEnd_toEndOf="@+id/player_profile"
+                app:layout_constraintStart_toStartOf="@+id/player_profile"
+                app:layout_constraintTop_toBottomOf="@+id/player_post" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<resources>
+    <integer-array name="player_photo">
+        <item>@drawable/araujo</item>
+        <item>@drawable/christensen</item>
+        <item>@drawable/frenkie_de_jong</item>
+        <item>@drawable/gundogan</item>
+        <item>@drawable/joao_felix</item>
+        <item>@drawable/joao_cancelo</item>
+        <item>@drawable/lewandowski</item>
+        <item>@drawable/pedri</item>
+        <item>@drawable/ter_stegen</item>
+        <item>@drawable/xavi</item>
+    </integer-array>
+    <item name="app_name" type="string">My Barcelona</item>
+    <string name="player_name">Nama Pemain</string>
+    <string name="player_position">Posisi</string>
+    <string name="player_desc">Deskripsi</string>
+    <string name="defender">Defender</string>
+    <string name="goalkeeper">GoalKeeper</string>
+    <string name="midfielder">Midfielder</string>
+    <string name="forward">Forward</string>
+    <string name="coach">Coach</string>
+
+
+    <!--  player photo  -->
+    <string name="fc_barcelona_first_team">FC Barcelona - First Team</string>
+    <string name="developer">Muhammad Dani Arya Putra</string>
+    <string name="dev_email">daniaryap01@gmail.com</string>
+
+
+    <!--  player description  -->
+    <string-array name="player_desc">
+        <item>Ronald Araujo was born in Rivera, Uruguay, on 7 March 1999. The young central defender began playing professionally for his hometown team, and later joined the lower categories at Rentistas in the Uruguayan Second Division.</item>
+        <item>An excellent reader of the game and versatile centre back, Andreas Christensen (10 April 1996) was born in Lillerød (Denmark) where he started out at IF Skjold Birkerød, soon catching the eye of Brøndby IF.</item>
+        <item>Frenkie de Jong was born in Arkel (Netherlands) on May 12, 1997. The Barça player started his career at Willem II in the Eredivise, the Dutch first division. In 2016 he signed for Ajax, where he gradually gained a place in the starting eleven. His versatility and his great vision allowed him to become the midfield organiser for the team from Amsterdam.</item>
+        <item>İlkay Gündoğan (24 October 1990, Gelsenkirchen, Germany), born to a Turkish family, is a midfielder who joined Barça in the summer of 2023 shortly after winning the Champions League as Manchester City captain and being a fundamental part of the all-conquering sky blue squad.</item>
+        <item>Joao Félix Sequeira (10 November 1999) was born in Viseu, Portugal. About 80 km from home, he rose up through the ranks at Porto, but it was at Benfica where he turned professional, making his debut in 2018/2019. His performances in 43 competitive games that season earned him the coveted Golden Boy award.</item>
+        <item>Born in Barreiro, Portugal, on 27 May 1991, João Cancelo started out playing in his hometown before joining Benfica at a young age.</item>
+        <item>The striker from Poland stands out for his goalscoring abilities. Inside the box he has all the tools to make him a difficult striker to read as he can find the net with his head and both feet with equal precision. </item>
+        <item>On September 2, 2019, FC Barcelona and Las Palmas reached an agreement for the transfer of Pedri. However, the Canarian player didn\'t join the blaugranes until August 2020. Born in Tegueste, Tenerife, on November 25, 2002, he began his football career in the team from his hometown. </item>
+        <item>Marc-André ter Stegen signed for FC Barcelona in the summer of 2014 from Borussia Mönchengladbach. Born on 30 April 1992 in Mönchengladbach itself, the German did not take long to make his name as one Europe’s most promising young goalkeepers.</item>
+        <item>Born in Terrassa on 25 January 1980, Xavi Hernández became first team manager in November 2021. Thus began his second spell at FC Barcelona. His first era at the club was a huge success and lasted 24 years; he started as an U12 and progressed all the way up to the first team. He then left Barça for Al Sadd in Qatar and with that experienced learned, he is coming back home.</item>
+    </string-array>
+
+
+    <!--  player special  -->
+    <string-array name="player_special">
+        <item>Uruguayan defender, strong in the air and capable with the ball at his feet</item>
+        <item>Centre back with brilliant passing skills and a tremendous reading of the game. Fabulous and finding the right route to get the ball forward</item>
+        <item>His versatility, energy and great vision have allowed him to continue developing his skills in any midfield position</item>
+        <item>With extensive experience of elite football, Gündoğan is an all-round midfielder who has also developed into a great goalscorer</item>
+        <item>Lights up football with the creative flair and talent in the final third of the field</item>
+        <item>Supreme right back who had already excelled at a number of top clubs before his loan to Barça</item>
+        <item>One of the best strikers ever, the Polish forward\'s stats speak for themselves</item>
+        <item>The player enjoys playing on the front foot, driving at his direct opponent and having his passes break the defensive lines</item>
+        <item>A keeper with great reflexes and also excellent with the ball at his feet</item>
+        <item>Xavi, an absolute legend at FC Barcelona, is a graduate of the FC Barcelona youth system who has gone on to manage the senior team</item>
+    </string-array>
+
+
+    <!--  player name  -->
+    <string-array name="player_name">
+        <item>Ronald Araujo</item>
+        <item>Andreas Christensen</item>
+        <item>Frenkie de Jong</item>
+        <item>Ilkay Gündogan</item>
+        <item>João Félix</item>
+        <item>João Cancelo</item>
+        <item>Robert Lewandowski</item>
+        <item>Pedri</item>
+        <item>Marc-André ter Stegen</item>
+        <item>Xavi</item>
+    </string-array>
+
+    <!--  player position  -->
+    <string-array name="player_position">
+        <item>@string/defender</item>
+        <item>@string/defender</item>
+        <item>@string/midfielder</item>
+        <item>@string/midfielder</item>
+        <item>@string/forward</item>
+        <item>@string/defender</item>
+        <item>@string/forward</item>
+        <item>@string/midfielder</item>
+        <item>@string/goalkeeper</item>
+        <item>@string/coach</item>
+    </string-array>
+
+</resources>

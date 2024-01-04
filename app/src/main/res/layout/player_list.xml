@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/view"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/playerPhoto"
+            android:layout_width="121dp"
+            android:layout_height="113dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintVertical_bias="0.5"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/playerName"
+            style="@style/Textview.MarginStart.BoldHeading"
+            android:text="@string/player_name"
+            app:layout_constraintStart_toEndOf="@+id/playerPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/playerDesc"
+            style="@style/Textview.MarginStart"
+            android:layout_marginTop="4dp"
+            android:lines="3"
+            android:text="@string/player_desc"
+            app:layout_constraintStart_toEndOf="@+id/playerPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/playerPosition"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/playerPosition"
+            style="@style/Textview.MarginStart"
+            android:layout_marginTop="4dp"
+            android:text="@string/player_position"
+            app:layout_constraintStart_toEndOf="@+id/playerPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/playerName"
+            tools:ignore="TextSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
